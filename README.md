@@ -1,27 +1,81 @@
-# 🎵 Billboard音乐数据分析应用
+# 🎵 Billboard Music Data Analysis App
 
-## 项目简介
-基于Streamlit的交互式数据分析应用，探索音乐特征趋势和艺术家表现。
+## Project Description
+An interactive data analysis application built with Streamlit to explore music characteristics and trends of popular songs from 2010-2019. This project fully implements all required course assignment features.
 
-## 🌐 在线访问
-- **Streamlit应用**: [(https://final-data-analysis-app-ap3ye7xhqhkgada9kqg476.streamlit.app/)]
-- **GitHub仓库**: https://github.com/Ree123666/final-data-analysis-app
+## 🌐 Live Access
+- **Streamlit App**: (https://final-data-analysis-app-ap3ye7xhqhkgada9kqg476.streamlit.app/)
+- **GitHub Repository**: https://github.com/Ree123666/final-data-analysis-app
 - **GitHub Pages**: https://Ree123666.github.io/final-data-analysis-app/
 
-## 📊 核心功能
-- **趋势分析**: BPM、能量、舞蹈性的年度变化
-- **特征探索**: 音乐特征分布与流派分析  
-- **艺术家排行**: 热门艺术家统计数据
-- **交互过滤**: 支持年份和流派筛选
+## 📊 Core Features
 
-## 🛠️ 技术栈
-- **前端**: Streamlit
-- **数据处理**: Pandas, NumPy
-- **可视化**: Matplotlib, Seaborn
+### Data Analysis Functions
+- **Trend Analysis**: Annual changes in BPM, energy, and danceability
+- **Feature Exploration**: Music feature distributions and genre analysis
+- **Artist Rankings**: Popular artist statistics
+- **Interactive Filtering**: Filter by year and genre
 
-## 🏃 本地运行
+### Visualization Charts
+- **Line Charts**: Multi-feature trend analysis
+- **Histograms**: Feature distribution display
+- **Pie Charts**: Genre proportion distribution
+- **Bar Charts**: Artist leaderboard
+
+### Interactive Widgets
+- **Slider**: Year range selection (2010-2019)
+- **Dropdown**: Music genre filtering
+
+## 🛠️ Technology Stack
+- **Frontend Framework**: Streamlit
+- **Data Processing**: Pandas, NumPy
+- **Data Visualization**: Matplotlib, Seaborn
+- **Version Control**: Git, GitHub
+
+## 📁 Project Structure
+```
+final-data-analysis-app/
+├── app.py                 # Main application file
+├── requirements.txt       # Python dependencies list
+├── README.md             # Project documentation
+├── .gitignore            # Git ignore configuration
+└── LICENSE               # MIT open source license
+```
+
+## 🏃 Local Development
+
+### Prerequisites
+- Python 3.8+
+- pip package manager
+
+### Installation Steps
 ```bash
+# Clone the project
 git clone https://github.com/Reel23666/final-data-analysis-app.git
 cd final-data-analysis-app
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Run the application
 streamlit run app.py
+```
+
+### Dependencies
+```txt
+streamlit>=1.28.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+numpy>=1.21.0
+```
+## Data Analysis Highlights
+### Music Trend Discoveries
+- Significant tempo increase after 2015
+- Rising energy levels trend
+- Consistent dominance of pop music
+
+### Artist Insights
+- Concentration of output among top artists
+- High popularity characteristics in successful works
+- Distinct style differences among artists
