@@ -25,17 +25,3 @@ git clone https://github.com/Reel23666/final-data-analysis-app.git
 cd final-data-analysis-app
 pip install -r requirements.txt
 streamlit run app.py
-...（前面的内容）...
-
-## ✅ 作业要求完成
-- ✅ 2个分析查询（趋势分析、艺术家排行）
-- ✅ 3种图表类型（折线图、柱状图、饼图）
-- ✅ 2种交互组件（滑块、下拉选择）
-- ✅ GitHub仓库 + Pages部署
-- ✅ Streamlit Cloud部署
-
-## 👤 开发者
-[在这里填写你的真实姓名]  <鲁佳灵>
-
-## 📄 许可证
-MIT License
